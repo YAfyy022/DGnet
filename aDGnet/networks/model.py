@@ -1,8 +1,8 @@
 import torch
 from torch import nn
 import torch.nn.functional as F
-from networks import resnet
-from config import pretrain_path
+from aDGnet.networks import resnet
+from aDGnet.utils.config import pretrain_path
 
 from aDGnet.mine_model.kvasir_model_2 import Guide_CNN
 from aDGnet.utils.DSAS import DSAS
